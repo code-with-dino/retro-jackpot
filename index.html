@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Retro Jackpot</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="game-layout">
+      <div class="side-panel left-panel">
+        <img src="assets/crown.png" class="crown" />
+        <div class="user-box">
+          <img src="assets/userIcon.png" class="user-avatar" />
+          <div class="player-stat">Coins: <span id="coin-count">100</span></div>
+        </div>
+
+        <div class="playing-cards">
+          <img src="assets/heartCard.png" alt="" />
+          <img src="assets/diamondCard.png" alt="" />
+          <img src="assets/blueDiamondCard.png" alt="" />
+        </div>
+      </div>
+
+      <div class="machine">
+        <h1>RETRO JACKPOT</h1>
+
+        <div class="slot-machine">
+          <div class="machine-frame">
+            <div class="reels">
+              <div class="symbol seven" id="slot1"></div>
+              <div class="symbol seven" id="slot2"></div>
+              <div class="symbol seven" id="slot3"></div>
+            </div>
+          </div>
+
+          <p id="message">Good luck!</p>
+        </div>
+      </div>
+
+      <div class="side-panel right-panel">
+        <div class="coin-stack">
+          <img src="assets/redCoin.png" alt="" class="coin-icon coin1" />
+          <img src="assets/yellowCoin.png" alt="" class="coin-icon coin2" />
+          <img src="assets/purpleCoin.png" alt="" class="coin-icon coin3" />
+          <img src="assets/greenCoin.png" alt="" class="coin-icon coin4" />
+        </div>
+        <button id="spin-btn"></button>
+        <div class="jackpot-box">
+          <div>777 = +50</div>
+          <div>🍒🍒🍒 = +20</div>
+          <div>$$$ = +100</div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
