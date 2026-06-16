@@ -98,6 +98,13 @@ Then visit `http://localhost:3000` in your browser.
 
 ---
 
+## ⚠️ Asset Notice
+The original graphic and audio assets used in this project are paid, commercially licensed materials and are **not included** in this repository to comply with copyright regulations. 
+
+To run this project locally, you must provide your own placeholder files. Place your custom images and audio files inside the `assets/` directory using the identical naming conventions expected by the source code.
+
+---
+
 ## Credits
 
 - **Pixel Assets:** Used for educational purposes from [Toffeecraft on Itch.io](https://itch.io).
